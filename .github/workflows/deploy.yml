@@ -21,4 +21,4 @@ jobs:
       - name: Build
         uses: echo "Building..."
       - name: Deploy
-        uses: echol "Deploying"
+        uses: echo "Deploying"
