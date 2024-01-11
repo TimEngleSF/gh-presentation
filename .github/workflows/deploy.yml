@@ -17,8 +17,8 @@ jobs:
       - name: Get code
         uses: actions/checkout@v3
       - name: Install Dependencies
-        uses: npm ci
+        run: npm ci
       - name: Build
-        uses: echo "Building..."
+        run: echo "Building..."
       - name: Deploy
-        uses: echo "Deploying"
+        run: echo "Deploying"
